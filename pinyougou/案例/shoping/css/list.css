@@ -1,0 +1,126 @@
+/* 列表页专有的css */
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_hd {
+    margin-bottom: 25px;
+}
+.sk_bd ul li {
+    float: left;
+    margin-right: 12px;
+    border: 1px solid transparent;
+    width: 291px;
+    height: 461px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+.iphone {
+    position: relative;
+    width: 291px;
+    height: 461px;
+}
+.iphone8 {
+    text-align: center;
+}
+.iphone p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    padding: 0 12px;
+}
+.iphone .price {
+    height: 37px;
+    padding: 0 12px;
+}
+.iphone h1 {
+    float: left;
+    color: #e60012;
+}
+.iphone h1::before {
+    content: '¥';
+    font-size: 14px;
+}
+.iphone h3 {
+    float: left;
+    padding: 9px 0 0 7px;
+    color: #a4a4a4;
+}
+.progress_bar {
+    height: 17px;
+    padding: 0 12px;
+    margin-top: 8px;
+}
+.progress_bar span {
+    font-size: 14px;
+}
+.red_bar{
+    display: inline-block;
+    width: 112px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+.red_bar .red_bar_87 {
+    width: 87%;
+    height: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #ed282e;
+}
+.panic_buying {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    margin-bottom: 0;
+}
+.panic_buying p {
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+}
